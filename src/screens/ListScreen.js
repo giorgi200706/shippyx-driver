@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput } from 'react-native';
 
-const mainScreen = ({ navigation }) => {
+const ListScreen = ({ navigation }) => {
 
     return (
-        <Text>main screen</Text>
+        <Text>list screen</Text>
     );
 };
 
@@ -12,4 +12,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default MainScreen;
+export default ListScreen;
